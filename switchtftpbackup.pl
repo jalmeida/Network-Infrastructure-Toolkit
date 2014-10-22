@@ -200,6 +200,11 @@ sub call_tftp_backup {
          #BayStack 450 Switch 12/24T
          &baystack_tftp_config;
 	 &baystack_tftp_config_ascii;
+# ADDED BY Juanma
+      } elsif ($sysObjectID eq "sreg-BayStack460-24T-ethSwitchNMM") {
+         #BayStack 460 Switch 12/24T
+         &baystack_tftp_config;
+# ADDED ENDs
       } elsif ($sysObjectID eq "sreg-BayStack350-24T-ethSwitchNMM") {
          #BayStack 350 Switch 12/24T
          &baystack_tftp_config;
